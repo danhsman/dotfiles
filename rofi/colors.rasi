@@ -1,0 +1,26 @@
+/*
+ * ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+ * ┃      ROFI COLORS - OXOCARBON PINK VARIATION                      ┃
+ * ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+ *
+ * Color scheme based on IBM's Oxocarbon with a pink accent.
+ * Compatible with Material Design 3 color tokens.
+ */
+
+* {
+    /* Surface colors */
+    surface:                #0f0e11;
+    on-surface:             #f4f1de;
+    surface-container:      #1d1b22;
+    surface-container-high: #2a2730;
+    on-surface-variant:     #d0c9d4;
+
+    /* Primary - Oxocarbon Pink */
+    primary:                #ff6b9d;
+    on-primary:             #0f0e11;
+
+    /* Supporting colors */
+    outline:                #9e9db0;
+    error-container:        #d64045;
+    on-error-container:     #f4f1de;
+}

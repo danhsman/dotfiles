@@ -1,0 +1,15 @@
+2026/08/16-04:10:20.376 c61 Reusing MANIFEST /home/danhs/.config/net.imput.helium/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/08/16-04:10:20.376 c61 Recovering log #7
+2026/08/16-04:10:20.381 c61 Reusing old log /home/danhs/.config/net.imput.helium/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/000007.log 
+2026/08/16-04:59:28.216 c63 Level-0 table #12: started
+2026/08/16-04:59:28.223 c63 Level-0 table #12: 555462 bytes OK
+2026/08/16-04:59:28.224 c63 Delete type=0 #7
+2026/08/16-04:59:28.224 c63 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/08/16-04:59:28.224 c63 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x05!\x01\x14\x00@\x00t\x002\x00_\x00z\x003\x008\x002\x00k\x00:\x00r\x00e\x00d\x00d\x00i\x00t\x00.\x00c\x00o\x00m\x00\x04\x04\x017\x00!\x00V\x00H\x00h\x00c\x00_\x00a\x002\x00J\x00g\x005\x00Y\x00K\x00w\x00f\x00K\x00A\x00N\x00D\x00n\x00y\x00_\x006\x00R\x00P\x002\x003\x001\x007\x00k\x00y\x00i\x00O\x002\x00C\x00h\x00f\x00z\x003\x00_\x00c\x00v\x00W\x00g\x00:\x00r\x00e\x00d\x00d\x00i\x00t\x00.\x00c\x00o\x00m\x01\x00\x01\x00\x03\x00\x00\x00\x00\x00\x00"@' @ 3137 : 1
+2026/08/16-04:59:28.224 c63 Compacting 1@1 + 1@2 files
+2026/08/16-04:59:28.227 c63 Generated table #13@1: 1997 keys, 193420 bytes
+2026/08/16-04:59:28.227 c63 Compacted 1@1 + 1@2 files => 193420 bytes
+2026/08/16-04:59:28.228 c63 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/08/16-04:59:28.228 c63 Delete type=2 #12
+2026/08/16-04:59:28.228 c63 Delete type=2 #9
+2026/08/16-04:59:28.228 c63 Manual compaction at level-1 from '\x00\x02\x05!\x01\x14\x00@\x00t\x002\x00_\x00z\x003\x008\x002\x00k\x00:\x00r\x00e\x00d\x00d\x00i\x00t\x00.\x00c\x00o\x00m\x00\x04\x04\x017\x00!\x00V\x00H\x00h\x00c\x00_\x00a\x002\x00J\x00g\x005\x00Y\x00K\x00w\x00f\x00K\x00A\x00N\x00D\x00n\x00y\x00_\x006\x00R\x00P\x002\x003\x001\x007\x00k\x00y\x00i\x00O\x002\x00C\x00h\x00f\x00z\x003\x00_\x00c\x00v\x00W\x00g\x00:\x00r\x00e\x00d\x00d\x00i\x00t\x00.\x00c\x00o\x00m\x01\x00\x01\x00\x03\x00\x00\x00\x00\x00\x00"@' @ 3137 : 1 .. (end); will stop at (end)

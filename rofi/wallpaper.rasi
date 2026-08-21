@@ -1,0 +1,114 @@
+/**
+ * ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+ * ┃                                                                  ┃
+ * ┃      ZUSQII  -  S I D E B A R   C O N F I G                      ┃
+ * ┃                                                                  ┃
+ * ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+ */
+
+@import "colors.rasi"
+
+/**
+ * ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+ * ┃      GENERAL CONFIGURATION                                       ┃
+ * ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+ */
+configuration {
+    modi:                        "drun";
+    show-icons:                  true;
+    drun-display-format:         "{name}";
+}
+
+/**
+ * ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+ * ┃      GLOBAL VARIABLES & SETTINGS                                 ┃
+ * ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+ */
+* {
+    background-color:            transparent;
+    text-color:                  @on-surface;
+}
+
+/**
+ * ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+ * ┃      WINDOW LAYOUT                                               ┃
+ * ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+ */
+window {
+    anchor:                      west;
+    location:                    west;
+    width:                       320px;   
+    height:                      95%;   
+    x-offset:                    15px;
+    y-offset:                    0px;
+    
+    background-color:            @surface;
+    border:                      1px;
+    border-radius:               24px;
+    border-color:                @outline;
+}
+
+mainbox {
+    spacing:                     10px;     
+    padding:                     15px;
+    children:                    [ "inputbar", "listview" ];
+}
+
+/**
+ * ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+ * ┃      INPUT BAR                                                   ┃
+ * ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+ */
+inputbar {
+    padding:                     10px;
+    margin:                      0px 0px 5px 0px;
+    background-color:            @surface-container-high;
+    border-radius:               12px;
+    children:                    [ "entry" ];
+}
+
+entry {
+    placeholder:                 "Search...";
+    placeholder-color:           @on-surface-variant;
+}
+
+/**
+ * ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+ * ┃      LIST VIEW                                                   ┃
+ * ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+ */
+listview {
+    columns:                     1;
+    lines:                       5;      
+    spacing:                     10px;     
+    cycle:                       true;
+    fixed-height:                true;  
+    scrollbar:                   false;
+}
+
+/**
+ * ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+ * ┃      ELEMENT STYLING                                             ┃
+ * ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+ */
+element {
+    orientation:                 vertical;
+    padding:                     8px;     
+    border-radius:               15px;
+}
+
+element selected {
+    background-color:            @surface-container-highest;
+    border:                      2px;
+    border-color:                @primary;
+}
+
+element-icon {
+    size:                        160px;     
+    horizontal-align:            0.5;
+}
+
+element-text {
+    horizontal-align:            0.5;
+    font:                        "JetBrainsMono Nerd Font 9";
+}

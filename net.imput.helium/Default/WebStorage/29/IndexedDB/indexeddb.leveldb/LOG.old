@@ -1,0 +1,6 @@
+2026/08/16-03:26:49.071 c6f Creating DB /home/danhs/.config/net.imput.helium/Default/WebStorage/29/IndexedDB/indexeddb.leveldb since it was missing.
+2026/08/16-03:26:49.072 c6f Reusing MANIFEST /home/danhs/.config/net.imput.helium/Default/WebStorage/29/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2026/08/16-03:26:49.094 c61 Level-0 table #5: started
+2026/08/16-03:26:49.095 c61 Level-0 table #5: 1324 bytes OK
+2026/08/16-03:26:49.096 c61 Delete type=0 #3
+2026/08/16-03:26:49.096 c61 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

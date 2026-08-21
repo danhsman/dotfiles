@@ -1,0 +1,58 @@
+2026/08/21-22:40:20.237 c52 Reusing MANIFEST /home/danhs/.config/net.imput.helium/Default/Local Extension Settings/blockjmkbacgjkknlgpkjjiijinjdanf/MANIFEST-000001
+2026/08/21-22:40:20.237 c52 Recovering log #106
+2026/08/21-22:40:20.238 c52 Reusing old log /home/danhs/.config/net.imput.helium/Default/Local Extension Settings/blockjmkbacgjkknlgpkjjiijinjdanf/000106.log 
+2026/08/21-22:40:29.580 c5f Level-0 table #110: started
+2026/08/21-22:40:29.604 c5f Level-0 table #110: 4794880 bytes OK
+2026/08/21-22:40:29.605 c5f Delete type=0 #106
+2026/08/21-22:40:29.606 c5f Compacting 4@0 + 3@1 files
+2026/08/21-22:40:29.625 c5f Generated table #111@0: 6 keys, 4393803 bytes
+2026/08/21-22:40:29.631 c5f Generated table #112@0: 2 keys, 2760662 bytes
+2026/08/21-22:40:29.639 c5f Generated table #113@0: 6 keys, 2630282 bytes
+2026/08/21-22:40:29.645 c5f Generated table #114@0: 2 keys, 2325288 bytes
+2026/08/21-22:40:29.646 c5f Generated table #115@0: 2 keys, 48276 bytes
+2026/08/21-22:40:29.650 c5f Generated table #116@0: 5 keys, 1255196 bytes
+2026/08/21-22:40:29.650 c5f Compacted 4@0 + 3@1 files => 13413507 bytes
+2026/08/21-22:40:29.651 c5f compacted to: files[ 0 6 10 0 0 0 0 ]
+2026/08/21-22:40:29.651 c5f Delete type=2 #95
+2026/08/21-22:40:29.651 c5f Delete type=2 #110
+2026/08/21-22:40:29.651 c5f Delete type=2 #105
+2026/08/21-22:40:29.651 c5f Delete type=2 #96
+2026/08/21-22:40:29.651 c5f Delete type=2 #97
+2026/08/21-22:40:29.651 c5f Delete type=2 #103
+2026/08/21-22:40:29.651 c5f Delete type=2 #107
+2026/08/21-22:40:29.652 c5f Compacting 1@1 + 2@2 files
+2026/08/21-22:40:29.660 c5f Generated table #117@1: 5 keys, 2941743 bytes
+2026/08/21-22:40:29.672 c5f Generated table #118@1: 4 keys, 3619220 bytes
+2026/08/21-22:40:29.672 c5f Compacted 1@1 + 2@2 files => 6560963 bytes
+2026/08/21-22:40:29.673 c5f compacted to: files[ 0 5 10 0 0 0 0 ]
+2026/08/21-22:40:29.673 c5f Delete type=2 #101
+2026/08/21-22:40:29.673 c5f Delete type=2 #77
+2026/08/21-22:40:29.673 c5f Delete type=2 #111
+2026/08/21-22:40:30.610 c5f Level-0 table #120: started
+2026/08/21-22:40:30.622 c5f Level-0 table #120: 4660088 bytes OK
+2026/08/21-22:40:30.623 c5f Delete type=0 #109
+2026/08/21-22:40:30.623 c5f Compacting 1@1 + 2@2 files
+2026/08/21-22:40:30.633 c5f Generated table #121@1: 5 keys, 3113146 bytes
+2026/08/21-22:40:30.637 c5f Generated table #122@1: 1 keys, 1033465 bytes
+2026/08/21-22:40:30.637 c5f Compacted 1@1 + 2@2 files => 4146611 bytes
+2026/08/21-22:40:30.637 c5f compacted to: files[ 0 5 10 0 0 0 0 ]
+2026/08/21-22:40:30.637 c5f Delete type=2 #79
+2026/08/21-22:40:30.637 c5f Delete type=2 #112
+2026/08/21-22:40:30.637 c5f Delete type=2 #78
+2026/08/21-22:40:30.637 c5f Compacting 1@1 + 2@2 files
+2026/08/21-22:40:30.644 c5f Generated table #123@1: 10 keys, 2194237 bytes
+2026/08/21-22:40:30.651 c5f Generated table #124@1: 2 keys, 2506748 bytes
+2026/08/21-22:40:30.651 c5f Compacted 1@1 + 2@2 files => 4700985 bytes
+2026/08/21-22:40:30.652 c5f compacted to: files[ 0 4 10 0 0 0 0 ]
+2026/08/21-22:40:30.652 c5f Delete type=2 #113
+2026/08/21-22:40:30.652 c5f Delete type=2 #80
+2026/08/21-22:40:30.652 c5f Delete type=2 #81
+2026/08/21-19:40:47.787 c5f Level-0 table #126: started
+2026/08/21-19:40:47.800 c5f Level-0 table #126: 4507752 bytes OK
+2026/08/21-19:40:47.801 c5f Delete type=0 #119
+2026/08/21-19:41:44.415 c5f Level-0 table #128: started
+2026/08/21-19:41:44.434 c5f Level-0 table #128: 6456551 bytes OK
+2026/08/21-19:41:44.435 c5f Delete type=0 #125
+2026/08/21-19:41:47.425 c5f Level-0 table #130: started
+2026/08/21-19:41:47.463 c5f Level-0 table #130: 9837083 bytes OK
+2026/08/21-19:41:47.464 c5f Delete type=0 #127

@@ -1,0 +1,10 @@
+2026/08/16-02:48:03.177 c61 Creating DB /home/danhs/.config/net.imput.helium/Default/IndexedDB/https_curators.musixmatch.com_0.indexeddb.leveldb since it was missing.
+2026/08/16-02:48:03.179 c61 Reusing MANIFEST /home/danhs/.config/net.imput.helium/Default/IndexedDB/https_curators.musixmatch.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/08/16-02:48:03.182 c70 Level-0 table #5: started
+2026/08/16-02:48:03.182 c70 Level-0 table #5: 1197 bytes OK
+2026/08/16-02:48:03.183 c70 Delete type=0 #3
+2026/08/16-02:48:03.183 c6f Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/08/16-02:48:03.184 c6f Level-0 table #7: started
+2026/08/16-02:48:03.185 c6f Level-0 table #7: 759 bytes OK
+2026/08/16-02:48:03.186 c6f Delete type=0 #4
+2026/08/16-02:48:03.186 c61 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)

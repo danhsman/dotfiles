@@ -1,0 +1,89 @@
+/* Oxocarbon Pink — Dynamic Island style */
+
+* {
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+  font-family: 'JetBrainsMono Nerd Font Propo';
+  font-size: 12px;
+}
+
+window#waybar {
+  background-color: transparent;
+}
+
+/* ── The floating pill ── */
+.modules-center {
+  padding: 0 18px;
+  background-color: rgba(22, 22, 22, 0.92);
+  border-radius: 99px;
+  transition: padding 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ── Modules ── */
+#clock {
+  color: #f2f4f8;
+  font-weight: 700;
+  font-size: 13px;
+  padding: 0 10px 0 4px;
+}
+
+#mpris {
+  color: #ff7eb6;                    /* pink primary */
+  font-weight: 600;
+  padding: 0 12px;
+  margin: 0 2px;
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#workspaces {
+  padding: 0 6px;
+}
+
+#workspaces button {
+  color: #f2f4f8;
+  padding: 0 6px;
+  border-radius: 99px;
+  transition: all 0.2s ease;
+}
+
+#workspaces button.active {
+  color: #161616;
+  background: rgba(255, 126, 182, 0.9);   /* pink */
+  border-radius: 99px;
+  margin: 4px 2px;
+  padding: 0 8px;
+}
+
+#pulseaudio,
+#network,
+#battery {
+  color: #ff7eb6;
+  padding: 0 8px;
+  font-size: 14px;
+}
+
+#network.disconnected {
+  color: #525252;
+}
+
+#battery.critical {
+  color: #ee5396;
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0.4; }
+}
+
+/* Tooltip */
+tooltip {
+  background: #161616;
+  border: 1px solid rgba(242, 244, 248, 0.2);
+  border-radius: 8px;
+  padding: 4px 8px;
+}
+
+tooltip label {
+  color: #f2f4f8;
+}
